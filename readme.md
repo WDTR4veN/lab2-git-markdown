@@ -23,6 +23,9 @@ tasks are comparable.  Here are the tasks:
    book 4.3.3](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-getting-creating)).
    Write the command you
    used underneath in a code block.
+   ```
+   git clone https://github.com/WDTR4veN/lab2-git-markdown
+   ```
    
 3. **add a new file** "books.md" to the repo.  You can use RStudio
    (file -> new file -> markdown file), or any other tool you find
@@ -37,21 +40,34 @@ tasks are comparable.  Here are the tasks:
 5. check **git status** (see [course book
    4.4.1](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-situational-awareness)).
    Show below, in _block quote_, what does it print.
+   ```
+   It prints which files have been modified/added to the repo
+   ```
    
    Explain, in plain text, what does it mean.
+   ```
+   It shows you which files have been changed in your repository
+   ```
    
 6. **add** the new file to the repository (see [course book
   4.4.3](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-adding)).
   Show your command (as a
   code block).
+  ```
+  git add books.md
+  ```
 
 7. Was your add successful?  Check status again!  Explain what do you
    see.
-   
+   ```
+   We see that the status is now green
+   ```
 8. Now **commit** your changes (see [course book
    4.4.4](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-committing)). 
    Put your command underneath in a code block.
-   
+   ```
+   git commit -ah "Added books.md"
+   ```
 9. Was your commit successful?  How can you check it?  Show your
    command(s) as a code block and explain what you see!
    
