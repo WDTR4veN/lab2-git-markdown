@@ -70,6 +70,11 @@ tasks are comparable.  Here are the tasks:
    ```
 9. Was your commit successful?  How can you check it?  Show your
    command(s) as a code block and explain what you see!
+   ```
+   [main ff69d9c] Added books.md
+   2 files changed, 21 insertions(+), 2 deletions(-)
+   create mode 100644 books.md
+   ```
    
 10. Now **push** your changes to Github (see [course book 4.4.5](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-pushing)).  You may
    need to create access token before you are able to push.
